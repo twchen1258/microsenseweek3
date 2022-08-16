@@ -9,7 +9,7 @@ from math import sqrt
 import matplotlib.pyplot as plt
 
 
-def csv_to_array(fileName : str):
+def csv_to_array(fileName):
     with open(fileName) as f:
         n_cols = len(f.readline().split(","))
     temp = np.loadtxt(fileName, delimiter=",", usecols=np.arange(4, n_cols-1))
