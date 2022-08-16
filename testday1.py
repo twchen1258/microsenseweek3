@@ -51,3 +51,4 @@ if __name__ == '__main__':
     dataArray = csv_to_array('rawdata.csv')
     postExcel(dataArray, 'Result_Sheet.xlsx')
     saveFig(dataArray, 'My Picture')
+    print("Finished")
