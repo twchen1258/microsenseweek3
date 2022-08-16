@@ -53,3 +53,4 @@ if __name__ == '__main__':
     saveFig(dataArray, 'My Picture')
     print("Finished")
     print("This is main")
+
