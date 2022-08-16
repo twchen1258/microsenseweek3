@@ -52,3 +52,4 @@ if __name__ == '__main__':
     postExcel(dataArray, 'Result_Sheet.xlsx')
     saveFig(dataArray, 'My Picture')
     print("Finished")
+    print("Hello World")
